@@ -13,10 +13,10 @@ A React Native mobile app built with Expo and Expo Router. Browse local cafés, 
 
 ## Screenshots
 
-![Home](./assets/screenshots/home.jpg)
-![Cafés](./assets/screenshots/cafes.jpg)
-![Map](./assets/screenshots/map.jpg)
-![About](./assets/screenshots/about.jpg)
+![Home](./assets/images/screenshots/home.jpg)
+![Cafés](./assets/images/screenshots/cafes.jpg)
+![Map](./assets/images/screenshots/map.jpg)
+![About](./assets/images/screenshots/about.jpg)
 ## Tech Stack
 
 - React Native & Expo
