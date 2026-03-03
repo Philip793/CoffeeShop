@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Coffee Map App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile app built with Expo and Expo Router. Browse local cafés, see them on a map, and navigate between Home, Cafés, and About tabs. This project demonstrates full-stack mobile development with React Native, API integration, and navigation.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Multi-tab navigation using Expo Router Tabs
+- Browse a list of cafés with clickable cards
+- View cafés on a map with latitude/longitude markers
+- React Hooks for state management
+- Structured debugging and troubleshooting
+- Designed for iOS and Android (tested with Expo Go and Android Emulator)
 
+## Screenshots
+
+![Home](./assets/screenshots/home.jpg)
+![Cafés](./assets/screenshots/cafes.jpg)
+![Map](./assets/screenshots/map.jpg)
+![About](./assets/screenshots/about.jpg)
+## Tech Stack
+
+- React Native & Expo
+- Expo Router for navigation
+- TypeScript
+- React Hooks
+- Maps API (Expo MapView)
+- Git & GitHub
+
+## Installation
+
+1. Clone the repository:
    ```bash
-   npm install
-   ```
+   git clone <your repo url>
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+2. Install dependencies:
 ```bash
-npm run reset-project
+npm install
+```
+3. Start the Expo project:
+```bash
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+4. Open on your device using Expo Go or run on an Android/iOS simulator.
 
-## Learn more
+## Future Improvements
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Add dynamic café data from an API
+- User authentication & favorites
+- Push notifications for new café listings
+- Native builds for Android/iOS
